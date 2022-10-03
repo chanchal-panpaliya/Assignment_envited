@@ -1,0 +1,14 @@
+.share-icon{
+    font-size: 2rem;
+}
+
+.share-Page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.share-Page a i:hover{
+    color: var(--color-primary);
+}

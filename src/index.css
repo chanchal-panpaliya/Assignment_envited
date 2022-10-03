@@ -1,0 +1,130 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+
+  *  {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    word-wrap: break-word;
+    scroll-behavior: smooth;
+    color: var(--color-dark);
+  }
+
+  body{
+    background:var(--bg);
+  }
+
+  a:hover{
+    color: var(--color-primary);
+  }
+
+  :root .light {
+    --color-white: hsl(252, 30%, 100%) !important;
+    --color-light: hsl(252, 30%, 95%) !important;
+    --color-gray: hsl(252, 15%, 65%) !important;
+    --color-primary: #f218bf99 !important;
+    --color-secondary: hsl(211, 100%, 90%) !important;
+    --color-success: hsl(120, 95%, 65%) !important;
+    --color-danger: hsl(0, 95%, 65%) !important;
+    --color-dark: hsl(252, 30%, 17%) !important;
+    --color-black: hsl(252, 30%, 10%) !important;
+    --color-dark-text:#303030 !important;
+  
+    --border-radius: 2rem;
+    --card-border-radius: 1rem;
+    --btn-padding: 0.6rem 2rem;
+    --search-padding: 0.6rem 1rem;
+    --card-padding: 1rem;
+  
+    --sticky-top-left: 5.4rem;
+    --sticky-top-right: -18rem;
+    --bg:#efefef;
+  }
+  
+  :root .dark {
+    --color-white: hsl(252, 30%, 17%) !important;
+    --color-light: hsl(252, 30%, 5%) !important;
+    --color-gray: hsl(0, 0%, 100%) !important;
+    --color-primary: #f218bf99 !important;
+    --color-secondary: hsl(211, 100%, 90%) !important;
+    --color-success: hsl(120, 95%, 65%) !important;
+    --color-danger: hsl(0, 95%, 65%) !important;
+    --color-dark: hsl(252, 30%, 100%) !important;
+    --color-black: hsl(252, 30%, 95%) !important;
+    --color-dark-text:#fefefe !important;
+  
+    --border-radius: 2rem;
+    --card-border-radius: 1rem;
+    --btn-padding: 0.6rem 2rem;
+    --search-padding: 0.6rem 1rem;
+    --card-padding: 1rem;
+  
+    --sticky-top-left: 5.4rem;
+    --sticky-top-right: -18rem;
+    --bg:hsl(252, 26%, 22%);
+  }
+  
+  /* DARK THEME CSS VARIABLES  */
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-white: hsl(252, 30%, 17%) !important;
+      --color-light: hsl(252, 30%, 5%) !important;
+      --color-gray: hsl(0, 0%, 100%) !important;
+      --color-primary: #f218bf99 !important;
+      --color-secondary: hsl(211, 100%, 90%) !important;
+      --color-success: hsl(120, 95%, 65%) !important;
+      --color-danger: hsl(0, 95%, 65%) !important;
+      --color-dark: hsl(252, 30%, 100%) !important;
+      --color-black: hsl(252, 30%, 95%) !important;
+      --color-dark-text:#fefefe !important;
+    
+      --border-radius: 2rem;
+      --card-border-radius: 1rem;
+      --btn-padding: 0.6rem 2rem;
+      --search-padding: 0.6rem 1rem;
+      --card-padding: 1rem;
+    
+      --sticky-top-left: 5.4rem;
+      --sticky-top-right: -18rem;
+      --bg:hsl(252, 26%, 22%);
+    }
+  }
+  
+  /* LIGHT THEME CSS VARIABLES  */
+  @media (prefers-color-scheme: light) {
+    :root {
+      --color-white: hsl(252, 30%, 100%) !important;
+      --color-light: hsl(252, 30%, 95%) !important;
+      --color-gray: hsl(252, 15%, 65%) !important;
+      --color-primary: #f218bf99 !important;
+      --color-secondary: hsl(211, 100%, 90%) !important;
+      --color-success: hsl(120, 95%, 65%) !important;
+      --color-danger: hsl(0, 95%, 65%) !important;
+      --color-dark: hsl(252, 30%, 17%) !important;
+      --color-black: hsl(252, 30%, 10%) !important;
+      --color-dark-text:#303030 !important;
+    
+      --border-radius: 2rem;
+      --card-border-radius: 1rem;
+      --btn-padding: 0.6rem 2rem;
+      --search-padding: 0.6rem 1rem;
+      --card-padding: 1rem;
+    
+      --sticky-top-left: 5.4rem;
+      --sticky-top-right: -18rem;
+      --bg:#efefef;
+    }
+  }
+
+
+
+
+ 
+

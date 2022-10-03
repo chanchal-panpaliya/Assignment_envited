@@ -1,0 +1,11 @@
+.Loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+
+.loader-img{
+    width: 200px;
+}

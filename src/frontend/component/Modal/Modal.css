@@ -1,0 +1,143 @@
+
+.modal{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  z-index: 10;
+}
+
+.modal-container{
+  background:var(--color-white);
+  /* width:fit-content;
+  height:fit-content; */
+  position: absolute;
+  display: flex;
+  border-radius: 5px;
+}
+
+.modal-left-side{
+  flex: 0% 0.1;
+  background:var(--color-primary);
+}
+
+.modal-left-side-img{
+  margin-top: 50%; 
+}
+
+.modal-right-flex-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-right-side{
+  flex: 80%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-close{
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  color: var(--color-primary);
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 500;
+  width: 1rem;
+  height: 1rem;
+}
+
+/*modal-confirm-option*/
+
+.modal-confirm-option{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  column-gap: 2rem;
+  margin-top: 2rem;
+}
+
+.modal-confirm-option-yes{
+ color: var(--color-primary);
+ cursor: pointer;
+ border: 1px solid var(--color-primary);
+ background: var(--color-white);
+ padding: 6px 10px;
+ border-radius: 5px;
+ width: 35%;
+}
+
+.modal-confirm-option-yes:hover{
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+.modal-confirm-option-no{
+  width: 35%;
+  cursor: pointer;
+  padding: 6px 10px;
+  background: red;
+  border-radius: 5px;
+  color: var(--color-white);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .modal-container{
+      height: auto;
+  }
+
+  .modal-left-side{
+      width: 8rem;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .modal-container{
+      height: auto;
+  }
+
+  .modal-left-side{
+      width: 8rem;
+  }
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .modal-container{
+     flex-direction: row;
+     width: 50vw;
+     height: auto;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .modal-container{
+      flex-direction: row;
+      width: 50vw;
+      height: auto;
+   }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .modal-container{
+      flex-direction: row;
+      width: 50vw;
+      height: auto;
+   }
+}
+

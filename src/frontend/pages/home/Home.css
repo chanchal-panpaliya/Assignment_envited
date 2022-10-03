@@ -1,0 +1,21 @@
+.home-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 8rem;
+    padding: 13px 5%;
+    /* height: 100vh; */
+}
+
+
+.middle-sidebar{
+    flex-basis: 47%;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+.Explore-category{
+    flex-wrap: wrap;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    display: flex;
+    border-radius: 6px;
+    color: var(--color-gray);
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.category-button{
+    background: transparent;
+    border: 1px solid var(--color-primary);
+    padding: 6px 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary);
+    border-radius: 3px;
+    cursor: pointer;
+    column-gap: 0.5rem;
+    font-size: 16px;
+}
+
+.category-button:hover ,.category-button-active{
+    background: var(--color-primary);
+    color: var(--color-white);
+}

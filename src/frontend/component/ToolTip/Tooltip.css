@@ -1,0 +1,14 @@
+.tooltip-container{
+    position: relative;
+}
+
+.tooltip-box{
+    position: fixed;
+    z-index: 1;
+    background: var(--TEXT_COLOR_L2);
+    color: var(--CARD_GRADIENT);
+    font-size: 0.6rem;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    opacity: 1;
+}

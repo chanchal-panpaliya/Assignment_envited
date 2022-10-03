@@ -1,0 +1,38 @@
+.notification-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: -webkit-fill-available
+}
+
+
+.notifi-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+    width: 30rem;
+}
+
+.notification-list img{
+    width: 50px;
+    height: 50px;
+    border-radius: 999px;
+}
+
+.notifi-date{
+    font-size: 0.7rem;
+}
+
+.event-card-bg{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+

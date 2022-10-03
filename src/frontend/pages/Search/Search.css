@@ -1,0 +1,25 @@
+.search-text{
+   background-color:var(--color-secondary);
+   margin-top: 2rem;
+}
+
+.search-category{
+    padding: 20px;
+    display: flex;
+    column-gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+}
+
+.search-category button{
+    padding: 4px;
+    font-size: 10px;
+    background-color:var(--color-grey);
+    color: var(--color-grey);
+}
+
+.search-category .search-button-active{
+    background: var(--color-primary);
+    color: var(--color-white);
+}
