@@ -80,7 +80,7 @@ const Login = () =>{
         <div className='login-container'>
            <section className='login-user-list-box'>
                 <p>
-                   helloबोला is a social media app where you can connect with your friends and share some stories...
+                EvenSNAP is a social media app where you can connect with your friends and share some upcoming events...
                 </p>
                 <h3> Fill with test credential's </h3>
                 <div className='login-user-list-container'>
